@@ -11,18 +11,14 @@ body{
 }
 
 div#interface {
-	width: 1200px;
-	background-color: #ffffff;
-	margin: -20px auto 0px auto;
+	
 	padding: 10px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 
 }
 
 header#cabecalho {
-	border-bottom: 1px solid #606060;
-	height: 150px;
-	
+	border-bottom: 1px solid #606060;	
 }
 
 header#cabecalho h1 {
@@ -46,18 +42,13 @@ p {
 }
 /* formataçao do menu */
 
-nav#menu {
-	display: flex;
-	align-items: center;
-}
 
 nav#menu ul{ 
-	display: inline-block;
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: -10px;
-	left: 600px;
+	top: 10%;
+	left: 46%;
 	
 }
 
@@ -89,18 +80,17 @@ nav#menu h1{
 section#corpo {
 	display: block;
 	float: left;
-	width: 600px;
-	padding-right: 15px;
-	
+	width: 50%;
+	padding: 10px;
 	border-right: 1px solid #606060;
 }
 
 aside#lateral {
 	display: block;
 	float: right;
-	width: 500px;
-	margin: 0%;
-	
+	width: 45%;
+	padding: 10px;
+	margin-left: 0;
 }
 
 footer#rodape {

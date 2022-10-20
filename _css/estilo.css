@@ -1,31 +1,33 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 @font-face {
 	font-family: 'FonteLogo';
 	src: url(../_fonts/bubblegum-sans-regular.otf);
 }
-body{
+
+body {
 	background-color: #dddddd;
 	margin: 0;
 	padding: 0;
 }
 
 div#interface {
-	
+
 	padding: 10px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
 }
 
 header#cabecalho {
-	border-bottom: 1px solid #606060;	
+	border-bottom: 1px solid #606060;
 }
 
 header#cabecalho h1 {
 	font-family: 'FonteLogo', sans-serif;
 	font-size: 30pt;
 	color: #606060;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 	margin-bottom: 0px;
 }
 
@@ -40,19 +42,20 @@ p {
 	text-align: left;
 	text-indent: 50px;
 }
+
 /* formataçao do menu */
 
 
-nav#menu ul{ 
+nav#menu ul {
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
 	top: 10%;
 	left: 46%;
-	
+
 }
 
-nav#menu li{
+nav#menu li {
 	display: inline-block;
 	background-color: #dddddd;
 	margin: 10px;
@@ -73,7 +76,7 @@ nav#menu a:hover {
 	color: #ffffff;
 }
 
-nav#menu h1{
+nav#menu h1 {
 	display: none;
 }
 

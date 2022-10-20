@@ -37,7 +37,7 @@ header#cabecalho h2 {
 }
 
 p {
-	text-align: justify;
+	text-align: left;
 	text-indent: 50px;
 }
 /* formataçao do menu */
